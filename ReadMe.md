@@ -1,5 +1,9 @@
 E-Commerce Web Application  (ShopHeX)
 
+![React](https://img.shields.io/badge/React-17-blue?logo=react)
+![Django](https://img.shields.io/badge/Django-4-green?logo=django)
+![PayPal](https://img.shields.io/badge/PayPal-Payment-blue?logo=paypal)
+
 A full-stack e-commerce web application built with Django REST Framework (backend) and React.js (frontend), featuring PayPal payment integration, user profiles, order history, and cart management.
 
 This project showcases my ability to build scalable, modern web applications with secure payment systems and dynamic user interfaces.
@@ -13,58 +17,34 @@ Table of Contents
 - [Screenshots](#screenshots)
 - [Future Enhancements](#future-enhancements)
 
-Features
+## Features
+- ✅ User authentication (signup, login)
+- ✅ Product browsing with categories
+- ✅ Cart management (add, update, remove items)
+- ✅ Payment integration: PayPal
+- ✅ Order history display with user-friendly date formatting
+- ✅ Transaction tracking
+- ✅ Responsive frontend built with React.js
+- ✅ API-driven backend with Django REST Framework
 
-✅ User authentication (signup, login)
+## Tech Stack
 
-✅ Product browsing with categories
+**Backend**
+- Python 3.x
+- Django 4.x
+- Django REST Framework
+- PayPal SDK (`paypalrestsdk`)
 
-✅ Cart management (add, update, remove items)
+**Frontend**
+- React.js
+- React Router DOM
+- Axios (for API calls)
 
-✅ Payment integration:
-PayPal
+**Database**
+- SQLite (default, can be replaced with PostgreSQL)
 
-✅ Order history display with user-friendly date formatting
-
-✅ Transaction tracking
-
-✅ Responsive frontend built with React.js
-
-✅ API-driven backend with Django REST Framework
-
-
-Tech Stack
-
-
-Backend:
-
-Python 3.x
-
-Django 4.x
-
-Django REST Framework
-
-PayPal SDK (paypalrestsdk)
-
-
-
-Frontend:
-
-React.js
-
-React Router DOM
-
-Axios (for API calls)
-
-
-Database:
-
-SQLite (default for development, can be replaced with PostgreSQL)
-
-Other:
-
-UUID and Decimal for unique references and precise payment amounts
-
+**Other**
+- UUID and Decimal for unique references and precise payment amounts
 ## Usage
 1. **Sign Up / Log In**
    - Create a new account or log in with your existing credentials.
@@ -116,8 +96,6 @@ UUID and Decimal for unique references and precise payment amounts
 
 ![order_history](https://github.com/user-attachments/assets/5a4739d3-b8f0-4e8b-91a8-8f84e501806f)
 
-
----
 
 ## Future Enhancements
 - Add **email notifications** for successful payments.
