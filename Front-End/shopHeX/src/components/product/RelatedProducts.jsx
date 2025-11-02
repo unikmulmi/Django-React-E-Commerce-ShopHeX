@@ -1,5 +1,5 @@
 import React from 'react'
-import HomeCard from '../components/home/HomeCard'
+import HomeCard from '../home/HomeCard'
 
 const RelatedProducts = ({similarProducts}) => {
   return (

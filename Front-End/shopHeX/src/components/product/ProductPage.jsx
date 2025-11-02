@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import ProductPagePlaceholder from './ProductPagePlaceholder'
 import RelatedProducts from './RelatedProducts'
-import api, { BASE_URL } from '../api'
+import api, { BASE_URL } from '../../api'
 import { Link, useParams } from 'react-router-dom'
 import { toast } from 'react-toastify'
 
