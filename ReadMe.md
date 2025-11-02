@@ -123,7 +123,6 @@ UUID and Decimal for unique references and precise payment amounts
 - Add **email notifications** for successful payments.
 - Integrate **more payment gateways**.
 - Implement **advanced search and filtering** for products.
-- Deploy on **cloud platforms** (Heroku, Vercel, AWS).
 - Add **admin dashboard** for managing products and transactions.
 
 ---
